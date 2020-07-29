@@ -1,0 +1,17 @@
+console.log('coerção')
+console.log('5' - 5)
+console.log('5' + 5)
+console.log(true + 1)
+console.log(true + true)
+console.log([] + [])
+console.log([] + {})
+
+console.log('\nimplícito')
+console.log(+ '5')
+console.log(5 + '')
+console.log(123 && 'oi')
+console.log(null || true)
+
+console.log('\nexplicito')
+console.log(Number('50'))
+console.log(String(25))

@@ -1,0 +1,23 @@
+const alfabeto = new Set(['a', 'b', 'c', 'd'])
+console.log(alfabeto)
+alfabeto.add('a')
+console.log(alfabeto)
+console.log(alfabeto.has('e'))
+console.log(alfabeto[0])
+alfabeto.add('e')
+alfabeto.delete('b')
+console.log(alfabeto)
+alfabeto.forEach(a => console.log(a))
+
+let dados = [1, 2, 3, 3, 4, 4, 5]
+const numeros = new Set(dados)
+console.log(numeros)
+dados = Array.from(numeros)
+console.log(dados)
+
+const dadosMap = new Map([['nome', 'Godofredo'], ['idade', 27]])
+console.log(dadosMap)
+dadosMap.set('estado', 'Amazonas')
+console.log(dadosMap)
+console.log(dadosMap.get('nome'))
+dadosMap.forEach((value, key) => console.log(key, value))

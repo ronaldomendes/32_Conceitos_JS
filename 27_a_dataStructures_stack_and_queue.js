@@ -1,0 +1,22 @@
+const pilha = []
+pilha.push(0)
+pilha.push(1)
+console.log(pilha)
+pilha.push(2)
+pilha.push(3)
+pilha.pop()
+console.log(pilha)
+pilha.unshift(0)
+pilha.unshift(1)
+pilha.unshift(2)
+console.log(pilha)
+
+console.log('\n')
+const fila = []
+fila.push(0)
+fila.push(1)
+console.log(fila)
+fila.push(2)
+fila.push(3)
+fila.shift()
+console.log(fila)
